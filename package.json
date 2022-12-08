@@ -1,0 +1,32 @@
+{
+  "name": "@decentrasol/orbitblog",
+  "version": "0.0.2",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nico Krause",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ipfs": "^0.59.0",
+    "libp2p-kad-dht": "^0.28.6",
+    "libp2p-mdns": "^0.18.0",
+    "libp2p-tcp": "^0.17.2",
+    "libp2p-webrtc-direct": "^0.7.1",
+    "libp2p-webrtc-star": "^0.25.0",
+    "libp2p-websockets": "^0.16.2",
+    "multiformats": "9.9.0",
+    "moment": "^2.29.4",
+    "orbit-db": "^0.28.6",
+    "orbit-db-identity-provider": "0.4.0",
+    "orbit-db-io": "1.0.2",
+    "uint8arrays": "^3.1.0",
+    "wrtc": "^0.4.7"
+  }
+}
